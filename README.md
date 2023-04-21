@@ -1,6 +1,6 @@
 # Discord Nitro QR phishing
 
-**Make sure you have a chromedriver version installed.
+**Make sure you have a chromedriver version installed.**
 
 # USAGE
 
