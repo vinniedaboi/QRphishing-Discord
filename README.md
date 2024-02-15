@@ -1,13 +1,17 @@
 # Discord Nitro QR phishing
 
-**Make sure you have a chromedriver version installed.**
 
-# USAGE
+## Overview
+
+Basically what this does is it takes the Discord QR from the login screen and slaps it on a Nitro Gift template to try and phish victims.
+
+## USAGE
+
+Make sure you have chromedriver installed for Selenium to interact with
 
 ```
 python3 main.py
 ```
 
-## Send the generated QR to victim and wait for the login
+Send the generated QR to victim and wait for the login
 
-# CREDITS: vinniekorkor#7391
