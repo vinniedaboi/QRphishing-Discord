@@ -1,17 +1,24 @@
-# Discord Nitro QR phishing
+# Discord Nitro QR Phishing
 
+A tool designed to generate phishing QR codes by overlaying the Discord QR on a Nitro Gift template.
 
 ## Overview
 
-Basically what this does is it takes the Discord QR from the login screen and slaps it on a Nitro Gift template to try and phish victims.
+This tool aims to demonstrate the potential risks associated with phishing attacks. It generates a phishing QR code by combining the Discord QR code from the login screen with a Nitro Gift template. This project is for educational purposes only, and its use is subject to ethical considerations and legal compliance.
 
-## USAGE
+## Usage
 
-Make sure you have chromedriver installed for Selenium to interact with
+Ensure you have `chromedriver` installed for Selenium to interact with.
 
-```
+```bash
 python3 main.py
 ```
 
-Send the generated QR to victim and wait for the login
+After running the script, you will get a generated QR code. Send this QR code to the victim and wait for them to scan it during the login process.
 
+## Prerequisites
+* Python 3.x
+* Chromedriver installed
+
+## Contributing
+Contributions are welcome. For major changes, please open an issue first to discuss what you would like to change.
